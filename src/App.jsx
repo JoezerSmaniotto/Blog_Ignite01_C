@@ -17,7 +17,7 @@ function App() {
           <Sidebar/>
           <main>
 
-         	 <Post 
+         	  <Post 
               autor="Joezer"
               content="Lorem upsum sit ament Lorem upsum sit ament"
             />

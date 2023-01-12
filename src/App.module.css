@@ -11,3 +11,12 @@
    o contéudo na horizontal se componets tiverem tamanhos 
    diferentes, por padrão é aplicado o flex-Stretch*/
 }
+
+@media(max-width: 768px){
+   html{
+      font-size: 87.5%;
+   }
+   .wrapper{
+      grid-template-columns: 1fr;
+   }
+}

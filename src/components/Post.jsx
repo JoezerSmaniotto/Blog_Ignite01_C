@@ -1,15 +1,16 @@
 import { Comment } from './Comment';
 import styles from './Post.module.css';
+import { Avatar } from './Avatar';
 
 export function Post(){
     return (
          <article className={styles.post}>
             <header>
                 <div className={styles.author}>
-                    <img 
-                        className={styles.avatar}
+                    <Avatar
+                        hasBorder={true}
                         src="https://avatars.githubusercontent.com/u/42808798?v=4" 
-                        alt="" 
+                        
                     />
                     <div className={styles.authorInfo}>
                         <strong>Joézer Smaniotto</strong>
