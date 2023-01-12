@@ -125,8 +125,13 @@ header e chamar o header*/
    
 }
 
-.commentForm button[type="submit"]:hover {
+.commentForm button[type="submit"]:not(:disabled):hover { /* Só aplica se o hover se não tiver disabled*/
     background: var(--green-300);
+}
+
+.commentForm button:disabled{
+    opacity: 0.7;
+    cursor: not-allowed;
 }
 
 .commentList {
